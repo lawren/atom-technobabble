@@ -1,5 +1,5 @@
 {
-  "name": "technobabble",
+  "name": "Technobabble Ipsum",
   "main": "./lib/technobabble",
   "version": "0.2.0",
   "private": true,
