@@ -20,6 +20,8 @@ preposition = ['Based on','Because the',]
 
 conjunction = [', however, ',', but ',', though in some cases ',', likewise, ','. In addition, ','. As a result, ','. Furthermore, ','. Comparatively, ','. On the other hand, ',', but in some cases, ',', so naturally, ','. Incidentally, ',', after all, ','. An example of this can be seen in the way ','. For instance, ',', while ','. Even on computers with more than one CPU, ','. Additionally, ',', and as a consequence, ']
 
+sentenceEnd = ['. ']
+
 generateSentence = ->
   randomWord(sentenceStart)
   randomWord(articleLower)
@@ -31,10 +33,10 @@ generateSentence = ->
   randomWord(articleLower)
   randomAdjective()
   randomWord(singularNoun)
+  randomWord(sentenceEnd)
 
 randomWord = (wordType) ->
   editor = atom.workspace.activePaneItem
-  console.log('inserting ' + wordType[Math.floor(Math.random()*wordType.length)])
   editor.insertText(wordType[Math.floor(Math.random()*wordType.length)])
 
 randomAdjective = ->
