@@ -5,7 +5,7 @@
   "private": true,
   "description": "Generate technical nonsense to placehold text!",
   "activationEvents": ["technobabble:generate-sentence"],
-  "repository": "https://github.com/atom/technobabble",
+  "repository": "https://github.com/lawren/atom-technobabble.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
