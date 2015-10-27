@@ -1,5 +1,5 @@
 {
-  "name": "new-package-name",
+  "name": "technobabble-ipsum",
   "main": "./lib/technobabble",
   "version": "0.3.1",
   "private": true,
