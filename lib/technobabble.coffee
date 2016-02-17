@@ -35,6 +35,7 @@ generateSentence = ->
   randomWord(singularNoun)
   randomWord(sentenceEnd)
 
+
 randomWord = (wordType) ->
   editor = atom.workspace.activePaneItem
   editor.insertText(wordType[Math.floor(Math.random()*wordType.length)])
@@ -48,5 +49,5 @@ randomAdjective = ->
 
 module.exports =
   activate:  ->
-    atom.workspaceView.command "technobabble:generate-sentence", ->
+    atom.commands.add "atom-workspace", "technobabble:generate-sentence": ->
       generateSentence()
