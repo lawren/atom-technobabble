@@ -1,13 +1,14 @@
 {
   "name": "technobabble",
   "main": "./lib/technobabble",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "private": true,
   "description": "Generate technical nonsense to placehold text!",
-  "activationEvents": [
-    "technobabble:generate-sentence"
-  ],
-  "repository": "https://github.com/lawren/atom-technobabble.git",
+  "keywords": [],
+  "activationCommands": {}
+    "atom-workspace": "technobabble:generate-sentence"
+  },
+  "repository": "https://github.com/step21/atom-technobabble.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

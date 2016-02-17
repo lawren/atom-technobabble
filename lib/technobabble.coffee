@@ -35,7 +35,6 @@ generateSentence = ->
   randomWord(singularNoun)
   randomWord(sentenceEnd)
 
-
 randomWord = (wordType) ->
   editor = atom.workspace.activePaneItem
   editor.insertText(wordType[Math.floor(Math.random()*wordType.length)])
