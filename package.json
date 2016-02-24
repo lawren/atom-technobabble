@@ -8,7 +8,7 @@
   "activationCommands": {}
     "atom-workspace": "technobabble:generate-sentence"
   },
-  "repository": "https://github.com/step21/atom-technobabble.git",
+  "repository": "https://github.com/lawren/atom-technobabble.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
