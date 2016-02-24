@@ -4,8 +4,9 @@
   "version": "0.3.4",
   "private": true,
   "description": "Generate technical nonsense to placehold text!",
-  "keywords": [],
-  "activationCommands": {}
+  "keywords": [
+  ],
+  "activationCommands": {
     "atom-workspace": "technobabble:generate-sentence"
   },
   "repository": "https://github.com/step21/atom-technobabble.git",

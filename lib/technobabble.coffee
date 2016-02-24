@@ -36,7 +36,7 @@ generateSentence = ->
   randomWord(sentenceEnd)
 
 randomWord = (wordType) ->
-  editor = atom.workspace.activePaneItem
+  editor = atom.workspace.getActiveTextEditor()
   editor.insertText(wordType[Math.floor(Math.random()*wordType.length)])
 
 randomAdjective = ->
